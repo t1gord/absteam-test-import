@@ -11,8 +11,14 @@ use Illuminate\Database\Eloquent\Model;
  * @property int $id
  * @property string $name
  * @property int $uuid
- *
  * @package App\Models
+ * @method static \Illuminate\Database\Eloquent\Builder|Stock newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Stock newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Stock query()
+ * @method static \Illuminate\Database\Eloquent\Builder|Stock whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Stock whereName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Stock whereUuid($value)
+ * @mixin \Eloquent
  */
 
 class Stock extends Model
